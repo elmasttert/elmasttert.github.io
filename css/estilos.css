@@ -23,6 +23,7 @@
       .row.content {height:auto;} 
     }
     #lateral{
+    position:relative;
     top:length -5px;
     float:left;
     width:10px;
