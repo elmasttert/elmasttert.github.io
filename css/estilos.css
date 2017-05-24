@@ -29,8 +29,12 @@
     width:10px;
 	
     }
-    article{
+    section{
     display: block;
      background-color: #dedede;
+     margin: 0 auto 0auto;
+     border: 0;
+     height:100%;
+     padding-botton:10px;
     }
     
