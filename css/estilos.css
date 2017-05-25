@@ -53,7 +53,10 @@
       background-color: #f6f6f6;
   }
   
-  
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
