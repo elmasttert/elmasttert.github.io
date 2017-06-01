@@ -1,195 +1,298 @@
 <!DOCTYPE html>
-<html lang="es">
- <head>
-   <title>PAGINA PERSONAL</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html>
+<title>MI PAGINA WEB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- banner mision -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- </head>
-  <body>
- <nav class="navbar navbar-inverse">
-   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-         </button>
-      <a class="navbar-brand" href="#">Logo</a>
-       </div>
-     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Nuestros productos</a></li>
-        <li><a href="portafolio.html">Portafolio</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+
+
+
+
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<!--
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner 
+  !-<img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+-->
+
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">INICIO</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MI</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MIS FOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTAME</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
   </div>
- </nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="CentrosTuristicosCajamarca.html">Centros Turisticos Cajamarca</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-    </div>
-     <div class="col-sm-8 text-left"> 
-      <h1>BIENVENIDOS</h1>
-      <p> Nuestra organizacion .....</p>
-      <hr>
-      <h3></h3>
-      <p> Institucion creada para la creacon y solucion a los problemas que se suscitan en la comunidad de donde se hace referencia</p>
-      <p>Gracias por su preferencia..</p>
-      
-      
-      <!-- banner mision -->
-   <div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Nuestros Valores</h2>
-      <h4><strong>MISION:</strong> Ser una empresa..</h4>      
-      <p><strong>VISION:</strong> Lograr la excelencia..</p>
-    </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MI</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">MIS FOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTAME</a>
+    <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
    </div>
- </div>
-      
-      
-  
-  <!-- Container (Services Section) -->
-    <div class="container-fluid text-center">
-    <h2>SERVICIOS</h2>
-   <h4>Lo que ofrecemos..</h4>
+</div>
+
+
+<!--fotospasables-->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home" style="background-color: #E6E6FA" >
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="imagenes/imagen1.jpg" alt="foto" width="700" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="imagenes/imagen3.jpg" alt="Chicago" width="700" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="imagenes/imagen7.jpg" alt="Los Angeles" width="700" height="700">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    </div>
+    </div>
+    </div>
+<!-- First Parallax Image with Logo Text -->
+<!--<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<img src="imagenes/imagen3.jpg" width="100%" height="100%" float="left" >
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MI <span class="w3-hide-small">WEBSITE</span> PERSONAL</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Elvis <span class="w3-hide-small">Teran</span> 
+  </div>
+</div>
+-->
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">SOBRE MI</h3>
+  <p class="w3-center"><em>I love photography</em></p>
+  <p>
+  Hola soy Elvis tengo 24 años, estudio en la Universidad Nacional de Cajamarca, en la Facultad de ingenieria escuela academico profesional de ingenieria de sistemas, actualmente curso el quinto año de estudios</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>YO...</b></p><br>
+      <img src="imagenes/imagen.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
     <br>
-     <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-  </div>
-   <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-     <p>Lorem ipsum dolor sit amet..</p>
+    <br>
+    <br>
+    <br>
+      <p>Te doy la más cordial bienvenida a mi sitio web, un medio para expresar mi pensamiento y puntos de vista, al tiempo de darme la oportunidad de conocer tus ideas e inquietudes.
+
+Por este medio te mantendré al tanto de mis actividades, mis proyectos, y mis ideas. Espero sea esta una forma de acercarme a ti como ciudadano o ciudadana, y que depende hoy del trabajo de cada uno de nosotros para elevarse al nivel al que todos aspiramos.
+
+Gracias por tu visita, tu persona es siempre bienvenida.</p>
     </div>
   </div>
-  <br><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Mis Fotos</h3>
+  <p class="w3-center"><em>A continuacion algunas fotos mias junto a amigos pasando grandes momentos.<br> Click en la imagen para ver cada una</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="imagenes/imagen3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
- </div>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="imagenes/imagen7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="imagenes/imagen10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Mas</button>
+  </div>
 </div>
 
- <!-- productos -->
-   
-    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-     <div class="w3-quarter">
-      <img src="img/image1.jpg" alt="imagen" style="width:100%">
-       <h3>Gaseosa bebible refrescante</h3>
-      <p>Precio de Oferta</p>
-  </div>
-  <div class="w3-quarter">
-      <img src="img/image2.jpg" alt="imagen2" style="width:100%">
-      <h3>KIt Kat</h3>
-      <p>Todo en un solo producto</p>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACTO</h3>
+  <p class="w3-center"><em></em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+     <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>-->
     </div>
-    <div class="w3-quarter">
-       <img src="img/image3.jpg" alt="Cherries" style="width:100%">
-      <h3>Super Combo</h3>
-      <p>Siempre dandote tu gusto</p>
-      <p>Deseas uno?</p>
-    </div>
-     <div class="w3-quarter">
-      <img src="img/image4.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
-  
-    </div>
-    <div class="col-sm-2 sidenav">    
-      <div class="well">
-        <p>ADS</p>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Cajamarca, Peru<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefono: 976515135<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: eterant12@unc.edu.pe<br>
       </div>
-       
+      <p>Dejame tu mensaje <i class="fa fa-coffee"></i>, o una nota pronto te respondere:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Nombre..." required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensaje
+        </button>
+      </form>
     </div>
-       <div class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:70px" style="top:right">
-         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a> 
-         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a> 
-         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a> 
-       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash"></i></a> 
-</div>
-  </div>    
-</div>
-
-
-  <!-- paginacion -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-      </div>
   </div>
+</div>
 
- <footer class="container-fluid text-center">
-      <br><p>Inicio </p>  <br> 
-      <p>Buscanos en Facebook</p><br>
-        <p>Noticias</p>  <br> 
-      <p>Productos</p><br>
-   </footer>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir a la inicio</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Click.. <a href="www.Facebook.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ir a mi Facebook</a></p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(-7.1606346, 78.539222,13);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://www.google.com.pe/maps/place/Cajamarca/@-7.1606346,-78.539222,13z/data=!3m1!4b1!4m5!3m4!1s0x91b25afd3fc7d087:0xea80a2b94d876b2b!8m2!3d-7.1617465!4d-78.5127855"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
 
 </body>
 </html>
