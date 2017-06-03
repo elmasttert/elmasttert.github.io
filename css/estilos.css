@@ -16,7 +16,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    
+    background-image: url('/w3images/parallax1.jpg');
+    min-height: 100%;
 }
 
 /* Second image (Portfolio) */
@@ -63,7 +64,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif , background-color
       margin-bottom: 25px;
       width: 80%;
       height: 80%;
-      opacity: 0.7;
+      
   }
   .person:hover {
       border-color: #f1f1f1;
