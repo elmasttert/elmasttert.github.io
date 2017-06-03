@@ -76,7 +76,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif , background-color
       margin: auto;
   }
   .carousel-caption h3 {
-      color: #D3D3D3 !important;
+      color: #ffff00!important;
   }
   @media (max-width: 600px) {
     .carousel-caption {
