@@ -1,0 +1,7 @@
+.social-bar{
+	position:fixed;
+	left:0;
+	top:200px;
+	z-index:2000;
+	
+}
