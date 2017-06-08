@@ -6,47 +6,59 @@
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="estilos/estiloss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">CAJAMARCA GLOBAL</a>
+      <a class="navbar-brand" href="#">Ventanillas de Otuzco</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Centros turisticos <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Baños del Inca</a></li>
-            <li><a href="#">Ventanillas de Otuzco</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
-            <li><a href="#">Santa Apolonia</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Galeria fotos </a></li>
-        <li><a href="#">Historia</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Suscribete</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Puente colgante</a></li>
+          <li><a href="#section2">Las ventanillas</a></li>
+         
+          <input type="button"  class="btn btn-primary" value="Historia " onClick="direccion8()" style="padding-top:18px"  />
+        </ul>
+      </div>
     </div>
   </div>
-</nav>
+</nav>    
 
+<div id="section1" class="container-fluid">
+  <h1>El puente colgante</h1>
 <div>
-  <img src="img/ventanillas.jpg" style="width:100%" title="Los perolitos">
+  <img src="img/puente.jpg" width="700" height="500" title="el puente" >
+</div><br>
+<p>Puente colgante cerca de las Ventanillas de Otuzco.</p>
 </div>
+<div id="section2" class="container-fluid">
+  <h1>Las Ventanillas</h1>
+  <div>
+  <img src="img/ventanas.jpg" width="700" height="500" title="ventanillas de otuzco" >
+</div><br>
+<p>Su nombre se lo debe a los nichos que la conforman, muy similares a ventanas, que se hallan en galerías de roca volcánica.Esta forma de sepultar a los muertos que consistía en excavar nichos en roca y colocar a los difuntos allí, haciendo uso de lo alto de los barrancos, a ese enigmático lugar popularmente se le denominó Ventanillas de Otuzco, a 8 km al noroeste de la ciudad en el distrito de los Baños del Inca.</p>
+</div>
+
+
+
+<script src="js/javascript.js"></script>
 
 </body>
 </html>

@@ -3,8 +3,13 @@
 <title>MI PAGINA WEB PERSONAL</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+<link rel="shortcut icon" href="http://creaticode.com/blog/wp-content/themes/creaticode/images/favicon.ico">
+<!--fuentes de google-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+<!-- Iconos -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <!-- Stylesheets -->
+<link rel="stylesheet" href="estiloscomentarios.css">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -18,8 +23,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
 <body>
 
 
@@ -55,11 +67,11 @@
 -->
 
  <div class="social-bar">
-<a href="https://www.facebook.com/" target="_blank" class="icon icon-home"></a>
-<a href="https://www.facebook.com/" target="_blank" class="icon icon-image"></a>
-<a href="https://www.facebook.com/" target="_blank" class="icon icon-play"></a>
+<a href="http://www.unc.edu.pe/" target="_blank" class="icon icon-home"></a>
+<a href="#portfolio" target="_blank" class="icon icon-image"></a>
+<a href="https://www.youtube.com/" target="_blank" class="icon icon-play"></a>
 <a href="mailto:eterant12@unc.edu.pe" target="_blank" class="icon icon-google-plus"></a>
-<a href="https://www.facebook.com/" target="_blank" class="icon icon-whatsapp"></a>
+<a href="https://web.whatsapp.com/" target="_blank" class="icon icon-whatsapp"></a>
 <a href="https://www.facebook.com/" target="_blank" class="icon  icon-facebook2"></a>
   
 </div>
@@ -69,11 +81,20 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">INICIO</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MI</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MIS FOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTAME</a>
-    <a href="CentrosTuristicosCajamarca.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Mi Bella Cajamarca</a>
+    <a href="#home" class="w3-bar-item w3-button"><p onmouseover="style.color='red'" onmouseout="style.color='black'" >INICIO</p></a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i><p onmouseover="style.color='red'" onmouseout="style.color='black'"> SOBRE MI</p></a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i><p onmouseover="style.color='red'" onmouseout="style.color='black'">MIS FOTOS</p> </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i><p onmouseover="style.color='red'" onmouseout="style.color='black'">CONTACTAME</p> </a>
+    
+    <a href="#videos" class="w3-bar-item w3-button w3-hide-small"><i class="icon1 icon-play"></i> <p onmouseover="style.color='red'" onmouseout="style.color='black'">MIS VIDEOS</p></a>
+    <a href="#comentarios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> <p onmouseover="style.color='red'" onmouseout="style.color='black'">COMENTARIOS</p></a>
+
+     <input type="button"  class="btn btn-danger navbar-btn"  value="Mi Bella Cajamarca" onClick="direccion()" />
+
+
+
+
+
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
        <i class="fa fa-search"></i>
     </a>
@@ -84,6 +105,7 @@
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MI</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">MIS FOTOS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTAME</a>
+
     <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
    </div>
 </div>
@@ -126,6 +148,20 @@
     </div>
     </div>
     </div>
+
+   <p onmouseover="style.color='red'" onmouseout="style.color='black'">Paginas de <br>
+      interes</p>
+    <div class="btn-group-vertical">
+    
+    <input type="button"  class="btn btn-primary" value="w3schools" onClick="direccion2()" />
+    <input type="button"  class="btn btn-primary" value="javascript" onClick="direccion3()" />
+    <input type="button"  class="btn btn-primary" value="Microsoft" onClick="direccion4()" />
+    <input type="button"  class="btn btn-warning" value="Universidad" onClick="direccion5()" />
+
+  </div>
+
+
+    
 <!-- First Parallax Image with Logo Text -->
 <!--<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
 <img src="imagenes/imagen3.jpg" width="100%" height="100%" float="left" >
@@ -172,37 +208,37 @@ Gracias por tu visita, tu persona es siempre bienvenida.</p>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="imagenes/imagen3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <img src="imagenes/imagen3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
     </div>
 
     <div class="w3-col m3">
-      <img src="imagenes/imagen4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      <img src="imagenes/imagen4.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
     </div>
 
      <div class="w3-col m3">
-      <img src="imagenes/imagen5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="imagenes/imagen5.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
     </div>
 
      <div class="w3-col m3">
-      <img src="imagenes/imagen6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="imagenes/imagen6.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="imagenes/imagen7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="imagenes/imagen7.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="imagenes/imagen8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="imagenes/imagen8.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="imagenes/imagen9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="imagenes/imagen9.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
 
     <div class="w3-col m3">
-      <img src="imagenes/imagen10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+      <img src="imagenes/imagen10.jpg" style="height: 180px" onclick="onClick(this)" class="w3-hover-opacity" alt="">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Mas</button>
   </div>
@@ -217,7 +253,7 @@ Gracias por tu visita, tu persona es siempre bienvenida.</p>
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
-     <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>-->
+     <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%"><img src="imagenes/maps.jpg" style="width:100%" alt=""></div>
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
@@ -243,27 +279,102 @@ Gracias por tu visita, tu persona es siempre bienvenida.</p>
     </div>
   </div>
 </div>
+<!--video-->
+<h1>Videos musicales...</h1>
+<div  class="w3-content w3-container w3-padding-64" id="videos">
+<iframe width="420px" height="345px" src="https://www.youtube.com/embed/fOBdcuX1FyQ" allowfullscreen>
+</iframe>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/c4pEdESpFXw" allowfullscreen >
+</iframe>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/GBwGNu7Mi2k" allowfullscreen>
+</iframe>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/PHPQbHjWGfs" allowfullscreen>
+</iframe>
+</div>
+
+<!--comentarios-->
+
+<!-- Contenedor Principal -->
+<div class="w3-content w3-container w3-padding-64" id="comentarios">
+<h1>Comentarios..</h1>
+    <div class="comments-container">
+        <ul id="comments-list" class="comments-list">
+            <li>
+                <div class="comment-main-level">
+                    <!-- Avatar -->
+                    <div class="comment-avatar"><img src="imagenes/imagen1.jpg" alt=""></div>
+                    <!-- Contenedor del Comentario -->
+                    <div class="comment-box">
+                        <div class="comment-head">
+                            <h6 class="comment-name by-author"><a href="http://www.fb.com">Elvis Teran</a></h6>
+                            <span>hace 20 minutos</span>
+                            <i class="fa fa-reply"></i>
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="comment-content">
+                            Hola a todos gracias por entrar a mi sitio
+                        </div>
+                    </div>
+                </div>
+ 
+                <!-- Respuestas de los comentarios -->
+                <ul class="comments-list reply-list">
+                    <li>
+                        <!-- Avatar -->
+                        <div class="comment-avatar"><img src="imagenes/eliza.jpg" alt=""></div>
+                        <!-- Contenedor del Comentario -->
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name"><a>Elizabeth</a></h6>
+                                <span>hace 10 minutos</span>
+                                <i class="fa fa-reply"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div class="comment-content">
+                                hola elvis vi tu sitio me parece exelente
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+ 
+        </ul>
+    </div>
+</div>
+
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off" style="height:350px" >
 <div class="pie">
   <a href="#home" > <p>Inicio</p> </a>
   <a href="#about"> <p>Sobre mi</p></a>
   <a href="#portfolio"><p>Mis fotos</p></a>
   <a href="contact"> <p>Contacto</p></a>
 </div>
+
+
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir a la inicio</a>
-  <div class="w3-xlarge w3-section" width=5px >
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!--iconos-->
+  <div class="w3-xlarge w3-section" >
+   
+    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-official w3-hover-opacity"></a>
+<a href="https://www.instagram.com/?hl=es" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
+<a href="https://www.snapchat.com/l/es/" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
+<a href="https://www.snapchat.com/l/es/pinterest" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
+<a href="https://twitter.com/" target="_blank" class="fa fa-twitter w3-hover-opacity"></a>
+<a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a>
+    
   </div>
   <p>Click.. <a href="www.Facebook.com" title="facebook" target="_blank" class="w3-hover-text-green">Ir a mi Facebook</a></p>
-
+<div class="twelve columns copyright">
+<p>
+  "Copyright 2017 | Todos los derechos reservados"
+</p>
   
+</div>
+
+
+
 </footer>
  
 <!-- Add Google Maps -->
@@ -314,10 +425,14 @@ function toggleFunction() {
 }
  </script>
 <script src="https://www.google.com.pe/maps/place/Cajamarca/@-7.1606346,-78.539222,13z/data=!3m1!4b1!4m5!3m4!1s0x91b25afd3fc7d087:0xea80a2b94d876b2b!8m2!3d-7.1617465!4d-78.5127855"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
+<script src="js/javascript.js"></script>
 
 </body>
 </html>

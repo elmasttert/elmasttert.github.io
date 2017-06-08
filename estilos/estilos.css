@@ -9,6 +9,7 @@ body, html {
 /* Create a Parallax Effect */
  .bgimg-1, .bgimg-2, .bgimg-3 {
    
+   background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,3 +140,40 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif , background-color
 
 
   }
+
+  .fa-facebook-official {
+ color:#0070ff;
+
+
+  }
+  .fa-instagram {
+    color: #3f729b;
+  }
+
+.fa-snapchat{
+  color: #008080;
+}
+
+.fa-pinterest{
+ color: #cb6d51;
+}
+.fa-twitter{
+color: #5171cb;
+}
+
+.fa-linkedin{
+color: #ff000a;
+}
+
+
+
+
+.w3-row-padding img
+{
+  width: 180px; height: 180px ; margin: 10px;
+}
+
+.w3-container iframe{
+  margin: 15px;
+}
+

@@ -5,12 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="fonts.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
-
+<div class="social-bar">
+<a href="http://www.unc.edu.pe/" target="_blank" class="icon icon-home"></a>
+<a href="#portfolio" target="_blank" class="icon icon-image"></a>
+<a href="https://www.youtube.com/" target="_blank" class="icon icon-play"></a>
+<a href="mailto:eterant12@unc.edu.pe" target="_blank" class="icon icon-google-plus"></a>
+<a href="https://web.whatsapp.com/" target="_blank" class="icon icon-whatsapp"></a>
+<a href="https://www.facebook.com/" target="_blank" class="icon  icon-facebook2"></a>
+  
+</div>
+<div class="w3-padding w3-xlarge w3-teal">
+   <a href="index.html"> <i class="fa fa-home"></i></a>
+    <i class="fa fa-search"></i>
+    <i class="fa fa-cloud"></i>
+    <i class="fa fa-trash"></i>
+    Bienvenidos... Conoce los principales centros Turisticos Cajamarca
+  </div>
 <div class="w3-display-container" style="margin-bottom:50px">
+
   <img src="img/plazadearmas.jpg" style="width:100%" title="Plaza de Armas">
   <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
    style="bottom:10%;opacity:0.7;width:70%">
@@ -35,15 +57,16 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Centros turisticos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Baños del Inca</a></li>
-            <li><a href="#">Ventanillas de Otuzco</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
-            <li><a href="#">Santa Apolonia</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
+            <li><a href="cajamarca.html">Baños del Inca</a></li>
+            <li><a href="ventanillas.html">Ventanillas de Otuzco</a></li>
+            <li><a href="Cumbe.html">Cumbe Mayo</a></li>
+            <li><a href="Santa.html">Santa Apolonia</a></li>
+            
           </ul>
         </li>
-        <li><a href="#">Galeria fotos </a></li>
-        <li><a href="#">Historia</a></li>
+        
+
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Suscribete</a></li>
@@ -60,6 +83,8 @@
     </a>   
     <h2>Baños del Inca</h2>
    <p>El balneario de aguas termales está ubicado a 6 kilómetros de Cajamarca con temperaturas que llegan hasta los 79ºC...</p>
+   <button type="button" class="w3-button w3-xlarge w3-circle w3-teal"  onclick="vermas()" >+</button>
+         <p id="mas"></p>
   </div>
  </div>
 
@@ -70,7 +95,9 @@
       </a>
     <h2>Ventanillas de Otuzco</h2>
     <p>Las Ventanillas de Otuzco es un sitio arqueológico peruano situado en el distrito de Baños del Inca a 8 km al noroeste de la ciudad de Cajamarca..</p>
-    
+
+    <button type="button" class="w3-button w3-xlarge w3-circle w3-teal"  onclick="vermas1()" >+</button>
+        <p id="mas1"></p>
   </div>
 </div>
 </div>
@@ -83,6 +110,9 @@
     </a>
     <h2>Cumbe Mayo</h2>
     <p>Cumbemayo1 o Kumbe Mayo2 es una zona arqueológica que se encuentra ubicada a unos 19 km al suroeste de la ciudad peruana de Cajamarca, a una altitud de aproximadamente 3.500 msnm.</p>
+
+    <button type="button" class="w3-button w3-xlarge w3-circle w3-teal"  onclick="vermas2()" >+</button>
+        <p id="mas2"></p>
   </div>
 </div>
 
@@ -93,9 +123,13 @@
     </a>
     <h2>Santa Apolonia</h2>
     <p>Santa Apolonia es una mártir que murió en Alejandría (Egipto) a mediados del siglo iii, antes de la persecución de Decio, durante un levantamiento local contra los cristianos...</p>
+    <button type="button" class="w3-button w3-xlarge w3-circle w3-teal"  onclick="vermas3()" >+</button>
+        <p id="mas3"></p>
     </div>
 </div>
+<input type="button"  class="btn btn-primary" value="Regresar a mi Pagina Personal" onClick="direccion6()" />
 </div>
 
+<script src="js/javascript.js"></script
 </body>
 </html>

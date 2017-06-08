@@ -6,47 +6,66 @@
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="estilos/estiloss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">CAJAMARCA GLOBAL</a>
+      <a class="navbar-brand" href="#">Baños del Inca</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Inicio</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Centros turisticos <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Baños del Inca</a></li>
-            <li><a href="#">Ventanillas de Otuzco</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
-            <li><a href="#">Santa Apolonia</a></li>
-            <li><a href="#">Cumbe Mayo</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Galeria fotos </a></li>
-        <li><a href="#">Historia</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Suscribete</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Los perolitos</a></li>
+          <li><a href="#section2">Las piscinas</a></li>
+          <li><a href="#section3">Psicultura</a></li>
+          <input type="button"  class="btn btn-primary" value="Historia " onClick="direccion7()" style="padding-top:18px"  />
+        </ul>
+      </div>
     </div>
   </div>
-</nav>
-<h1>BIENVENIDOS A BAÑOS DEL INCA</h1>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Los perolitos</h1>
 <div>
-  <img src="img/bañosdelinca.jpg" style="width:50%" title="Los perolitos" >
+  <img src="img/bañosdelinca.jpg" width="700" height="500" title="Los perolitos" >
+</div><br>
+<p>En Baños del Inca, las aguas tienen una temperatura de 70"C, producto de una fuente de calor con origen magmático o volcánico aún muy latente que se conoce desde tiempos preincas. Se trata, pues, de manantiales de agua caliente subterránea conocidos como los Perolitos.En Baños del Inca, las aguas tienen una temperatura de 70"C, producto de una fuente de calor con origen magmático o volcánico aún muy latente que se conoce desde tiempos preincas. Se trata, pues, de manantiales de agua caliente subterránea conocidos como los Perolitos.En Baños del Inca, las aguas tienen una temperatura de 70"C, producto de una fuente de calor con origen magmático o volcánico aún muy latente que se conoce desde tiempos preincas. Se trata, pues, de manantiales de agua caliente subterránea conocidos como los Perolitos.</p>
 </div>
+<div id="section2" class="container-fluid">
+  <h1>Las piscinas</h1>
+  <div>
+  <img src="img/piscinas.jpg" width="700" height="500" title="Los perolitos" >
+</div><br>
+<p>ELos Baños del Inca cuenta con cuatro secciones: servicio de duchas (19 compartimentos), pozas colectivas (35 habitaciones), pozas individuales para los turistas (58 ) y una sección imperial con 19 pozas. El termalismo en Cajamarca ya es una actividad que sabe aprovechar los derivados (aguas, microrganismos, algas) y combinarlos sabiamente con el sol, el oxigeno y el clima.</p>
+</div>
+
+<div id="section3" class="container-fluid">
+  <h1>La psicultura</h1>
+<div>
+  <img src="img/psicultura.jpg" width="700" height="500" title="Los perolitos" >
+</div><br>
+<p>ELos Baños del Inca cuenta con cuatro secciones: servicio de duchas (19 compartimentos), pozas colectivas (35 habitaciones), pozas individuales para los turistas (58 ) y una sección imperial con 19 pozas. El termalismo en Cajamarca ya es una actividad que sabe aprovechar los derivados (aguas, microrganismos, algas) y combinarlos sabiamente con el sol, el oxigeno y el clima.</p>
+  </div>
+
+
+<script src="js/javascript.js"></script>
 
 </body>
 </html>
